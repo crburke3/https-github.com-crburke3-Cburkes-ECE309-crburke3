@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA38540021475D2900F61559 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FB21475D2900F61559 /* example.cpp */; };
 		FA38540121475D2900F61559 /* newfile2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FD21475D2900F61559 /* newfile2.cpp */; };
-		FA38540221475D2900F61559 /* newfile1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FE21475D2900F61559 /* newfile1.cpp */; };
+		FA38540221475D2900F61559 /* StringArrayList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FE21475D2900F61559 /* StringArrayList.cpp */; };
 		FA38540321475D2900F61559 /* Stringlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FF21475D2900F61559 /* Stringlist.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		FA3853FB21475D2900F61559 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = "../../ece309-fall18-unityid/lib/example.cpp"; sourceTree = "<group>"; };
 		FA3853FC21475D2900F61559 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = "../../ece309-fall18-unityid/include/example.h"; sourceTree = "<group>"; };
 		FA3853FD21475D2900F61559 /* newfile2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = newfile2.cpp; path = "../../ece309-fall18-unityid/lib/newfile2.cpp"; sourceTree = "<group>"; };
-		FA3853FE21475D2900F61559 /* newfile1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = newfile1.cpp; path = "../../ece309-fall18-unityid/lib/newfile1.cpp"; sourceTree = "<group>"; };
+		FA3853FE21475D2900F61559 /* StringArrayList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringArrayList.cpp; path = "../../ece309-fall18-unityid/lib/StringArrayList.cpp"; sourceTree = "<group>"; };
 		FA3853FF21475D2900F61559 /* Stringlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stringlist.cpp; path = "../../ece309-fall18-unityid/lib/Stringlist.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 			children = (
 				FA3853FB21475D2900F61559 /* example.cpp */,
 				FA3853FC21475D2900F61559 /* example.h */,
-				FA3853FE21475D2900F61559 /* newfile1.cpp */,
+				FA3853FE21475D2900F61559 /* StringArrayList.cpp */,
 				FA3853FD21475D2900F61559 /* newfile2.cpp */,
 				FA3853FF21475D2900F61559 /* Stringlist.cpp */,
 			);
@@ -129,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA38540221475D2900F61559 /* newfile1.cpp in Sources */,
+				FA38540221475D2900F61559 /* StringArrayList.cpp in Sources */,
 				FA38540121475D2900F61559 /* newfile2.cpp in Sources */,
 				FA38540021475D2900F61559 /* example.cpp in Sources */,
 				FA38540321475D2900F61559 /* Stringlist.cpp in Sources */,
