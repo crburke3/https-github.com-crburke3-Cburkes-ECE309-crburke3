@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA38540021475D2900F61559 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FB21475D2900F61559 /* example.cpp */; };
-		FA38540121475D2900F61559 /* newfile2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FD21475D2900F61559 /* newfile2.cpp */; };
-		FA38540221475D2900F61559 /* StringArrayList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FE21475D2900F61559 /* StringArrayList.cpp */; };
-		FA38540321475D2900F61559 /* Stringlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3853FF21475D2900F61559 /* Stringlist.cpp */; };
+		FA6B4F5221A3333F0098310D /* IntInf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA6B4F5021A3333F0098310D /* IntInf.cpp */; };
+		FA6B4F5421A355030098310D /* IntInf_tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA6B4F5321A355030098310D /* IntInf_tester.cpp */; };
+		FABC96E0217045A90071CE63 /* IntArray.h in Sources */ = {isa = PBXBuildFile; fileRef = FABC96DA21702B6E0071CE63 /* IntArray.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +25,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA321420216E877400AD8C32 /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
+		FA322DC2215C6EA30011A96E /* PlistTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlistTest.cpp; sourceTree = "<group>"; };
 		FA3853F1214757B600F61559 /* ECE309Tester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ECE309Tester; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA3853FB21475D2900F61559 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = "../../ece309-fall18-unityid/lib/example.cpp"; sourceTree = "<group>"; };
-		FA3853FC21475D2900F61559 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = "../../ece309-fall18-unityid/include/example.h"; sourceTree = "<group>"; };
+		FA3853FB21475D2900F61559 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = "../../ece309-fall18-unityid/lib/test.cpp"; sourceTree = "<group>"; };
 		FA3853FD21475D2900F61559 /* newfile2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = newfile2.cpp; path = "../../ece309-fall18-unityid/lib/newfile2.cpp"; sourceTree = "<group>"; };
 		FA3853FE21475D2900F61559 /* StringArrayList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringArrayList.cpp; path = "../../ece309-fall18-unityid/lib/StringArrayList.cpp"; sourceTree = "<group>"; };
 		FA3853FF21475D2900F61559 /* Stringlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stringlist.cpp; path = "../../ece309-fall18-unityid/lib/Stringlist.cpp"; sourceTree = "<group>"; };
+		FA6B4F5021A3333F0098310D /* IntInf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntInf.cpp; sourceTree = "<group>"; };
+		FA6B4F5121A3333F0098310D /* IntInf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntInf.hpp; sourceTree = "<group>"; };
+		FA6B4F5321A355030098310D /* IntInf_tester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntInf_tester.cpp; sourceTree = "<group>"; };
+		FA966392215BE4C600D26DF8 /* PList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PList.cpp; sourceTree = "<group>"; };
+		FA966393215BE4C600D26DF8 /* PList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PList.h; sourceTree = "<group>"; };
+		FA9EE88D214F60D100E44F81 /* TucksListObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TucksListObject.cpp; sourceTree = "<group>"; };
+		FABC96D4216FC9B50071CE63 /* IntegerSetArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerSetArray.h; sourceTree = "<group>"; };
+		FABC96D5216FC9DD0071CE63 /* Homework_05_1_Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Homework_05_1_Main.cpp; sourceTree = "<group>"; };
+		FABC96DA21702B6E0071CE63 /* IntArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntArray.h; sourceTree = "<group>"; };
+		FABC96DC21702BD10071CE63 /* Homework_02_2_Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Homework_02_2_Main.cpp; sourceTree = "<group>"; };
+		FAC3224D2177E8CA00F5C488 /* Homework6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Homework6.cpp; sourceTree = "<group>"; };
+		FAC3224E2177E8CA00F5C488 /* Homework6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Homework6.hpp; sourceTree = "<group>"; };
+		FAC322522177E9FF00F5C488 /* IntergerSet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntergerSet.cpp; sourceTree = "<group>"; };
+		FAC322532177E9FF00F5C488 /* IntegerSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerSet.h; sourceTree = "<group>"; };
+		FAC322582177EBBF00F5C488 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		FAD2C0702197A3DA0035EE9B /* Test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test2.cpp; sourceTree = "<group>"; };
+		FAD2C0722198BA930035EE9B /* binarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binarySearchTree.h; sourceTree = "<group>"; };
+		FAD2C0732198BAD70035EE9B /* binarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearchTree.cpp; sourceTree = "<group>"; };
+		FAE310282188C92000A9635C /* MaxHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxHeap.cpp; sourceTree = "<group>"; };
+		FAE310292188C92000A9635C /* MaxHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxHeap.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,32 +65,133 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA321422216E883E00AD8C32 /* Binary Trees */ = {
+			isa = PBXGroup;
+			children = (
+				FA321420216E877400AD8C32 /* BinaryTree.cpp */,
+			);
+			path = "Binary Trees";
+			sourceTree = "<group>";
+		};
+		FA322DC4215C782B0011A96E /* Homework4 */ = {
+			isa = PBXGroup;
+			children = (
+				FA966392215BE4C600D26DF8 /* PList.cpp */,
+				FA966393215BE4C600D26DF8 /* PList.h */,
+				FA322DC2215C6EA30011A96E /* PlistTest.cpp */,
+			);
+			path = Homework4;
+			sourceTree = "<group>";
+		};
 		FA3853E8214757B600F61559 = {
 			isa = PBXGroup;
 			children = (
+				FA6B4F4C21A332770098310D /* Homework_10 */,
+				FAD2C06F2197A3C70035EE9B /* StudyTest2 */,
+				FAE310272188C8D700A9635C /* Homework_07 */,
+				FAC322512177E9E100F5C488 /* TuckLect11 */,
+				FAC322502177E9CA00F5C488 /* Homework6 */,
+				FABC96D1216FADD60071CE63 /* Homework_05 */,
+				FA321422216E883E00AD8C32 /* Binary Trees */,
 				FA3853F3214757B600F61559 /* ECE309Tester */,
-				FA3853F2214757B600F61559 /* Products */,
+				FA3853F2214757B600F61559 /* Extras */,
+				FA322DC4215C782B0011A96E /* Homework4 */,
 			);
 			sourceTree = "<group>";
 		};
-		FA3853F2214757B600F61559 /* Products */ = {
+		FA3853F2214757B600F61559 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
+				FA9EE88D214F60D100E44F81 /* TucksListObject.cpp */,
 				FA3853F1214757B600F61559 /* ECE309Tester */,
 			);
-			name = Products;
+			name = Extras;
 			sourceTree = "<group>";
 		};
 		FA3853F3214757B600F61559 /* ECE309Tester */ = {
 			isa = PBXGroup;
 			children = (
-				FA3853FB21475D2900F61559 /* example.cpp */,
-				FA3853FC21475D2900F61559 /* example.h */,
+				FA3853FB21475D2900F61559 /* test.cpp */,
 				FA3853FE21475D2900F61559 /* StringArrayList.cpp */,
 				FA3853FD21475D2900F61559 /* newfile2.cpp */,
 				FA3853FF21475D2900F61559 /* Stringlist.cpp */,
 			);
 			path = ECE309Tester;
+			sourceTree = "<group>";
+		};
+		FA6B4F4C21A332770098310D /* Homework_10 */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B4F5021A3333F0098310D /* IntInf.cpp */,
+				FA6B4F5121A3333F0098310D /* IntInf.hpp */,
+				FA6B4F5321A355030098310D /* IntInf_tester.cpp */,
+			);
+			path = Homework_10;
+			sourceTree = "<group>";
+		};
+		FABC96D1216FADD60071CE63 /* Homework_05 */ = {
+			isa = PBXGroup;
+			children = (
+				FABC96D821702B5B0071CE63 /* Problem 2 */,
+				FABC96D721702A2C0071CE63 /* Problem 1 */,
+			);
+			path = Homework_05;
+			sourceTree = "<group>";
+		};
+		FABC96D721702A2C0071CE63 /* Problem 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FABC96D4216FC9B50071CE63 /* IntegerSetArray.h */,
+				FABC96D5216FC9DD0071CE63 /* Homework_05_1_Main.cpp */,
+			);
+			path = "Problem 1";
+			sourceTree = "<group>";
+		};
+		FABC96D821702B5B0071CE63 /* Problem 2 */ = {
+			isa = PBXGroup;
+			children = (
+				FABC96DA21702B6E0071CE63 /* IntArray.h */,
+				FABC96DC21702BD10071CE63 /* Homework_02_2_Main.cpp */,
+			);
+			path = "Problem 2";
+			sourceTree = "<group>";
+		};
+		FAC322502177E9CA00F5C488 /* Homework6 */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3224D2177E8CA00F5C488 /* Homework6.cpp */,
+				FAC3224E2177E8CA00F5C488 /* Homework6.hpp */,
+			);
+			path = Homework6;
+			sourceTree = "<group>";
+		};
+		FAC322512177E9E100F5C488 /* TuckLect11 */ = {
+			isa = PBXGroup;
+			children = (
+				FAC322522177E9FF00F5C488 /* IntergerSet.cpp */,
+				FAC322532177E9FF00F5C488 /* IntegerSet.h */,
+				FAC322582177EBBF00F5C488 /* Main.cpp */,
+			);
+			path = TuckLect11;
+			sourceTree = "<group>";
+		};
+		FAD2C06F2197A3C70035EE9B /* StudyTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2C0702197A3DA0035EE9B /* Test2.cpp */,
+				FAD2C0722198BA930035EE9B /* binarySearchTree.h */,
+				FAD2C0732198BAD70035EE9B /* binarySearchTree.cpp */,
+			);
+			path = StudyTest2;
+			sourceTree = "<group>";
+		};
+		FAE310272188C8D700A9635C /* Homework_07 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE310282188C92000A9635C /* MaxHeap.cpp */,
+				FAE310292188C92000A9635C /* MaxHeap.hpp */,
+			);
+			path = Homework_07;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +225,7 @@
 				TargetAttributes = {
 					FA3853F0214757B600F61559 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -115,7 +237,7 @@
 				en,
 			);
 			mainGroup = FA3853E8214757B600F61559;
-			productRefGroup = FA3853F2214757B600F61559 /* Products */;
+			productRefGroup = FA3853F2214757B600F61559 /* Extras */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -129,10 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA38540221475D2900F61559 /* StringArrayList.cpp in Sources */,
-				FA38540121475D2900F61559 /* newfile2.cpp in Sources */,
-				FA38540021475D2900F61559 /* example.cpp in Sources */,
-				FA38540321475D2900F61559 /* Stringlist.cpp in Sources */,
+				FA6B4F5221A3333F0098310D /* IntInf.cpp in Sources */,
+				FA6B4F5421A355030098310D /* IntInf_tester.cpp in Sources */,
+				FABC96E0217045A90071CE63 /* IntArray.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,18 +372,35 @@
 		FA3853F9214757B600F61559 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2T6T9M8644;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homework_10/ECE309Tester-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		FA3853FA214757B600F61559 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2T6T9M8644;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homework_10/ECE309Tester-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
